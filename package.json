@@ -85,6 +85,7 @@
     "rfdc": "^1.4.1",
     "rimraf": "^6.0.1",
     "satori": "^0.13.1",
+    "yoga-wasm-web": "^0.3.3",
     "serve-handler": "^6.1.6",
     "sharp": "^0.34.1",
     "shiki": "^3.4.2",
