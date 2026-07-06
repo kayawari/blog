@@ -1,5 +1,5 @@
 ---
-title: title
+title: 育休中に遊んでみたKiroの所感
 draft: false
 tags:
   - blog
