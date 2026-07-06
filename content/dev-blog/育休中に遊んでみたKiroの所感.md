@@ -1,8 +1,9 @@
 ---
 title: title
-draft: true
+draft: false
 tags:
   - blog
+  - スペック駆動開発
 ---
  
 # 育休中に遊んでみたKiroの所感（Spec Driven DevelopmentによるAIコーディング）
