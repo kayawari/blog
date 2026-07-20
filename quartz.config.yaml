@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: tkfire's blog
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ja-JP
   baseUrl: blog-do6.pages.dev
   ignorePatterns:
     - private
@@ -18,7 +18,7 @@ configuration:
     typography:
       header: Schibsted Grotesk
       body: Source Sans Pro
-      code: IBM Plex Mono
+      code: JetBrains Mono
     colors:
       lightMode:
         light: "#faf8f8"
@@ -157,11 +157,13 @@ plugins:
     layout:
       position: left
       priority: 50
+    options:
+      title: all
   - source: github:quartz-community/graph
     enabled: true
     layout:
       position: right
-      priority: 10
+      priority: 50
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -202,7 +204,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
